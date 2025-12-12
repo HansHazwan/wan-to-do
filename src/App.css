@@ -8,5 +8,44 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  padding: 1em;
+  background-color: blue;
+  color: white;
+  text-align: center;
+}
+
+.body {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.taskView {
+  width: 60%;
+  height: 40%;
+}
+
+.search {
+  width: 50em;
+  padding: 1em;
+  border-width: .1em;
+  border-color: black;
+  border-style: solid;
+  border-radius: 6px 6px 0px 0px;
+}
+
+.search input {
+  width: 20em;
+  height: 2em;
+  border-width: .1em;
+  margin: 0 1em 0 1em;
 }
 

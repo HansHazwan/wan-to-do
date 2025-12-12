@@ -7,19 +7,21 @@ function App() {
         <h2>Wan ToDo</h2>
       </div>
       <div className="body">
-        <div className="search">
-          <form>
-            <input type="text"/>
-            <button>Search</button>
-          </form>
-        </div>
-        <div>
-          <ol>
-            <li>
-              <p>Tugas</p>
-              <input type="radio"/>
-            </li>
-          </ol>
+        <div className="taskView">
+          <div className="search">
+            <form>
+              <input type="text"/>
+              <button>Search</button>
+            </form>
+          </div>
+          <div>
+            <ol>
+              <li>
+                <p>Tugas</p>
+                <input type="radio"/>
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
     </div>
